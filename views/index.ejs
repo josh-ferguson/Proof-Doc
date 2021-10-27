@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+<script src="myWorkScript.js"></script>
+
+</head>
+
+<body>
+
+
+
+  <section id="content1">
+    <h1>Proof-Doc</h1>
+    <h2>Sign in!</h2>
+
+    <div class="login-form">
+			<form action="auth" method="POST">
+				<input type="email" name="email" placeholder="email" required>
+				<input type="password" name="password" placeholder="Password" required>
+				<input type="submit">
+			</form>
+		</div>
+
+    <p id="OR">or</p>
+
+    <form class="registration-button">
+      <button class="norm" type="button" name="registerButton" onclick="window.location.href='/registration'">Sign Up Now!</button>
+    </form>
+
+    <div class="websiteInfo">
+      <p id="webInfo"> Welcome to Proof-Doc!
+        Here you will be able to upload you work to be proof read by
+        your peers and lecturers.
+        You can proof read other people's work as well!
+        All uploads and reviews are uploaded anonymously, but remember
+        if you want to be truly anonymous make sure you haven't
+        put your name on your work!
+      </p>
+    </div>
+
+  </section>
+
+
+</body>

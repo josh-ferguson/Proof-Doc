@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+<title>Upload Work</title>
+<link rel="stylesheet" href="style.css">
+<script src="uploadWorkScript.js"></script>
+</head>
+
+<body>
+
+<section id="side">
+
+  <section id="account">
+    <img id="profilePic" name="profilePic" src="image.png" alt="Profile picture">
+    <p id="accountName">Account Name</p>
+    <form id="logout" action="/logout" method="post">
+      <input type="submit" name="logout" value="logout">
+    </form>
+  </section>
+
+  <nav>
+    <ul>
+      <li><a href="myWork">My Work</a></li>
+      <li id="activeLink"><a href="uploadWork">Upload Work</a></li>
+      <li><a href="findWork">Find Work</a></li>
+    </ul>
+  </nav>
+
+  </section>
+
+  <section id="content">
+    <h1>Upload Work</h1>
+    <div>
+    <form class="uploadForm" action="/uploadForm" method="post" enctype="multipart/form-data">
+      <input type="file" name="browse">
+      <input type="submit" value="Upload">
+    </form>
+  </div>
+  <div class="websiteInfo">
+    <p id="webInfo"> All work must be uploaded as a PDF file!
+      Please remember if you want your work to be truly anonymous,
+      then make sure that there is nothing in the document that can be used to identify you!
+    </p>
+  </div>
+  </section>
+
+</body>

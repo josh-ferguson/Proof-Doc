@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: #666666;
+}
+
+.top-bar{
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.btn{
+  background: coral;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
+.page-info{
+  margin-left: 1rem;
+}
+
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 1rem;
+}
+
+#content1{
+  overflow: hidden;
+}
+
+#pdf-render{
+  border-style: solid;
+  float: left;
+  width: 49%;
+}
+
+
+footer{
+  text-align: center;
+  padding: 1%;
+  font-size: 150%;
+}
+
+a:link,a:visited,a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.review, .displayReview{
+  background-color: coral;
+  border-style: solid;
+  float: left;
+  width: 49%;
+  height: 100%;
+  padding-left: 1%;
+}
+
+.reviewForm input[type="submit"]{
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+#reviewTextarea,
+#displayReviewTextarea{
+  line-height: 1.5;
+  padding-top: 1%;
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  font-size: 150%;
+}
+
+.displayReviewForm input[type="submit"],
+.displayReviewForm input[type="button"]{
+  display: inline-block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  margin-bottom: 1%;
+  background-color: #dedede;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+
+.displayReviewForm input[type="submit"]{
+  width: 30%;
+  font-size: 120%;
+}
+
+.displayReviewForm input[type="button"]{
+  width: 10%;
+  float: right;
+  margin-right: 2%;
+}
+
+.displayReviewForm label{
+  display: block;
+  margin: auto;
+}
+
+#reviewer{
+  width: 10%;
+}

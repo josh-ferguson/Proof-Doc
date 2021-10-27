@@ -1,0 +1,50 @@
+<!DOCTYPE ejs>
+
+<head>
+<title>My Work</title>
+<link rel="stylesheet" href="style.css">
+<script src="myWorkScript.js"></script>
+</head>
+
+<body>
+
+  <section id="side">
+
+    <section id="account">
+      <img id="profilePic" name="profilePic" src="image.png" alt="Profile picture">
+      <p id="accountName" name="accountName">Account Name</p>
+      <form id="logout" action="/logout" method="post">
+        <input type="submit" name="logout" value="logout">
+      </form>
+    </section>
+
+
+    <nav>
+      <ul>
+        <li id="activeLink"><a href="myWork">My Work</a></li>
+        <li><a href="uploadWork">Upload Work</a></li>
+        <li><a href="findWork">Find Work</a></li>
+      </ul>
+    </nav>
+
+  </section>
+
+  <section id="content">
+    <h1>My Work</h1>
+    <template id="template">
+      <div class="workUploaded">
+
+
+      </div>
+    </template>
+
+    <div class="websiteInfo">
+      <p id="webInfo"> Here is all of your work that you have uploaded to Proof-Doc!
+        Click on an upload to see reviews. If it is empty then you haven't uploaded any work, please go to the Upload Work page to add your work!
+      </p>
+    </div>
+
+  </section>
+
+
+</body>

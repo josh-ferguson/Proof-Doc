@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+<title>Find Work</title>
+<link rel="stylesheet" href="style.css">
+<script src="findWorkScript.js"></script>
+</head>
+
+<body>
+
+  <section id="side">
+
+    <section id="account">
+      <img id="profilePic" name="profilePic" src="image.png" alt="Profile picture">
+      <p id="accountName">Account Name</p>
+      <form id="logout" action="/logout" method="post">
+        <input type="submit" name="logout" value="logout">
+      </form>
+    </section>
+
+
+    <nav>
+      <ul>
+        <li><a href="myWork">My Work</a></li>
+        <li><a href="uploadWork">Upload Work</a></li>
+        <li id="activeLink"><a href="findWork">Find Work</a></li>
+      </ul>
+    </nav>
+
+  </section>
+
+  <section id="content">
+    <h1>Find Work</h1>
+
+    <template id="template">
+      <div class="findWorkUploaded">
+
+
+      </div>
+    </template>
+
+    <div class="websiteInfo">
+      <p id="webInfo"> Bellow are all the uploads available to be reviewed!
+        Click on an upload to review it and please avoid plagiarising.
+      </p>
+    </div>
+
+  </section>
+
+
+</body>
