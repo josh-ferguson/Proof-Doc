@@ -1,4 +1,5 @@
 # Proof-Doc
+This Project was completed as part of my final year project in my Computing under-graduate course.
 This web application was written in HTML, CSS and JavaScript. It allows the users to upload a document to the website. Reviewers can then proofread and comment
 on the document. Then users can access the proofreaders comments and make adjustments to their work.
 
